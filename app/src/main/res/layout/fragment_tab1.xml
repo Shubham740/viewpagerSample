@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/action_army"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/action" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="SUPPORTING UNITS"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="70dp">
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:layout_marginBottom="1dp"
+                android:text="ARMY simply dummy"
+                android:textColor="#fff"
+                android:textSize="13dp" />
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text"
+                android:layout_marginLeft="36dp"
+                android:layout_marginBottom="100dp"
+                android:text="LOREM Ipsum dummy"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/rec" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="56dp"
+            android:layout_height="132dp"
+            android:layout_gravity="end|bottom"
+            android:src="@drawable/floationg"
+            android:elevation="5dp"
+            android:layout_alignParentRight="true"
+            app:backgroundTint="#fff"
+            android:scaleType="center"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/loreum_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum dummy"
+            android:textColor="#fff"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get simply dummy"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/loreum_text"
+            android:textColor="#fff"/>
+    </RelativeLayout>-->
+
+
+
+
+
+</FrameLayout>
+
+
+
+
